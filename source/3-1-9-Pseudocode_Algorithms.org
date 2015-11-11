@@ -32,9 +32,10 @@ x <-- x - y
 #+begin_src
 i <-- 1
 WHILE i < 100
-i <-- i * 2
+   i <-- i * 2
 ENDWHILE
 #+end_src
+
 1. What is the initial value of =i=?
 2. On which line is a loop started?
 3. What is the final value of =i=?
@@ -44,10 +45,11 @@ ENDWHILE
 :HTML_CONTAINER_CLASS: try
 :END:
 #+begin_src
-words <-- "I HATE PSEUDOCODE"
+words <-- "CS IS KEWL."
 newWords <-- ""
+
 FOR i <-- 1 TO LEN(words)
-newWords <-- words[i] + newWords
+   newWords <-- words[i] + newWords
 ENDFOR
 #+end_src
 1. What is the initial value of =i=
@@ -63,10 +65,11 @@ ENDFOR
 #+begin_src
 number <-- 7
 answer <-- TRUE
+
 FOR i <--2 TO (number - 1) 
-IF number % i = 0 THEN
-answer <-- FALSE
-ENDIF
+   IF number % i = 0 THEN
+      answer <-- FALSE
+   ENDIF
 ENDFOR
 #+end_src
 1. What data type is =answer=?
@@ -86,16 +89,17 @@ arr <-- [14,2,9,5,1,13,25]
 N <-- LEN(arr)
 swapped <-- TRUE
 hold <-- ""
+
 WHILE swapped = TRUE   
-swapped <-- FALSE
-FOR i <-- 2 TO N
-IF arr[i-1] > arr[i] THEN
-hold <-- arr[i]
-arr[i] <-- arr[i-1]
-arr[i-1] <-- hold
-swapped <-- TRUE
-ENDIF
-ENDFOR
+   swapped <-- FALSE
+   FOR i <-- 2 TO N
+      IF arr[i-1] > arr[i] THEN
+         hold <-- arr[i]
+         arr[i] <-- arr[i-1]
+         arr[i-1] <-- hold
+         swapped <-- TRUE
+      ENDIF
+   ENDFOR
 ENDWHILE
 #+end_src
 1. What is the data type of =arr=?

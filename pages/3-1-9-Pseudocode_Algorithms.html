@@ -182,9 +182,10 @@ x &lt;-- x - y
 <pre class="example">
 i &lt;-- 1
 WHILE i &lt; 100
-i &lt;-- i * 2
+   i &lt;-- i * 2
 ENDWHILE
 </pre>
+
 <ol class="org-ol">
 <li>What is the initial value of <code>i</code>?
 </li>
@@ -201,10 +202,11 @@ ENDWHILE
 <h3 id="sec-1-2">Try It</h3>
 <div class="outline-text-3" id="text-1-2">
 <pre class="example">
-words &lt;-- "I HATE PSEUDOCODE"
+words &lt;-- "CS IS KEWL."
 newWords &lt;-- ""
+
 FOR i &lt;-- 1 TO LEN(words)
-newWords &lt;-- words[i] + newWords
+   newWords &lt;-- words[i] + newWords
 ENDFOR
 </pre>
 <ol class="org-ol">
@@ -229,10 +231,11 @@ ENDFOR
 <pre class="example">
 number &lt;-- 7
 answer &lt;-- TRUE
+
 FOR i &lt;--2 TO (number - 1) 
-IF number % i = 0 THEN
-answer &lt;-- FALSE
-ENDIF
+   IF number % i = 0 THEN
+      answer &lt;-- FALSE
+   ENDIF
 ENDFOR
 </pre>
 <ol class="org-ol">
@@ -263,16 +266,17 @@ arr &lt;-- [14,2,9,5,1,13,25]
 N &lt;-- LEN(arr)
 swapped &lt;-- TRUE
 hold &lt;-- ""
+
 WHILE swapped = TRUE   
-swapped &lt;-- FALSE
-FOR i &lt;-- 2 TO N
-IF arr[i-1] &gt; arr[i] THEN
-hold &lt;-- arr[i]
-arr[i] &lt;-- arr[i-1]
-arr[i-1] &lt;-- hold
-swapped &lt;-- TRUE
-ENDIF
-ENDFOR
+   swapped &lt;-- FALSE
+   FOR i &lt;-- 2 TO N
+      IF arr[i-1] &gt; arr[i] THEN
+         hold &lt;-- arr[i]
+         arr[i] &lt;-- arr[i-1]
+         arr[i-1] &lt;-- hold
+         swapped &lt;-- TRUE
+      ENDIF
+   ENDFOR
 ENDWHILE
 </pre>
 <ol class="org-ol">

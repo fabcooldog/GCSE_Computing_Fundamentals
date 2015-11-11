@@ -7,7 +7,7 @@
 
 #+BEGIN_HTML
 <div class=ribbon>
-<a href="https://github.com/MarcScott/GCSE-CS">Fork me on GitHub</a>
+<a href="https://github.com/stsb11/GCSE_Computing_Fundamentals">Fork me on GitHub</a>
 </div>
 #+END_HTML
 * [[http://filestore.aqa.org.uk/subjects/AQA-GCSE-COMPSCI-W-SP.PDF][AQA GCSE CS Specification]]
