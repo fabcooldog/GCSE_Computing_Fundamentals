@@ -1,6 +1,6 @@
 #+STARTUP:indent
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
-#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+HTML_HEAD_EXTRA: <link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
 #+TITLE: 3.1.9 Algorithms
 #+AUTHOR: Marc Scott
@@ -111,21 +111,25 @@ Until the bag is empty
 #+begin_src
 foo <-- 100
 WHILE foo > 0
-IF foo % 2 = 0 THEN
-OUTPUT foo
-foo = foo - 1
-END IF
+   IF foo % 2 = 0 THEN
+      OUTPUT foo
+      foo = foo - 1
+   END IF
 ENDWHILE
 #+end_src
+
+
 #+begin_src
 bar <-- 1
 baz <-- 0
+
 WHILE bar < 100
-bar <-- bar + baz
-baz <-- bar - baz
-OUTPUT bar
+   bar <-- bar + baz
+   baz <-- bar - baz
+   OUTPUT bar
 ENDWHILE
 #+end_src
+
 * Writing pseudocode algorithms
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
@@ -174,35 +178,48 @@ ENDWHILE
 #+begin_src
 Y <-- 3
 FOR X <-- 1 TO 5
-Y <-- Y + X
+   Y <-- Y + X
 ENDFOR
+
 OUTPUT Y
 #+end_src
+
+
 #+begin_src
 List <-- [10,8,3,5,6,1,2]
 Total <-- 0
+
 FOR i <-- 1 TO LEN(List)
-TOTAL <-- TOTAL + List[i]
+   TOTAL <-- TOTAL + List[i]
 ENDFOR
+
 OUTPUT TOTAL
 #+end_src
+
+
 #+begin_src
 num <-- 78
 answer <-- ''
+
 WHILE num > 0
-r <-- num MOD 2
-num <-- num / 2
-answer <-- STR(r) + answer 
+   r <-- num MOD 2
+   num <-- num / 2
+   answer <-- STR(r) + answer 
 ENDWHILE
+
 OUTPUT answer
 #+end_src
+
+
 #+begin_src
 nums = [6,2,8,1,9,2]
 n = 0
+
 FOR i <-- 1 TO LEN(nums)
-IF nums[i] > n THEN
-n = nums[i]
-ENDIF
+   IF nums[i] > n THEN
+      n = nums[i]
+   ENDIF
 ENDFOR
+
 OUTPUT n
 #+end_src
