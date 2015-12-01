@@ -15,7 +15,10 @@
 :HTML_CONTAINER_CLASS: link-heading
 :END:
 
-
+* [[file:docs/2014_solution.pdf][***NEW*** 2014 Paper model solution]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: link-heading
+:END:
 * [[http://filestore.aqa.org.uk/subjects/AQA-GCSE-COMPSCI-W-SP.PDF][AQA GCSE CS Specification]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
