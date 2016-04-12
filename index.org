@@ -10,12 +10,15 @@
 <a href="https://github.com/stsb11/GCSE_Computing_Fundamentals">Fork me on GitHub</a>
 </div>
 #+END_HTML
-* [[file:docs/20xx_solution.pdf][***NEW*** Specimen Paper model solution]]
+* [[file:docs/20xx_solution.pdf][Specimen Paper model solution]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
-
-* [[file:docs/2014_solution.pdf][***NEW*** 2014 Paper model solution]]
+* [[file:docs/2014_solution.pdf][2014 Paper model solution]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: link-heading
+:END:
+* [[file:docs/2015_solution.pdf][*NEW* 2015 Paper model solution]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
